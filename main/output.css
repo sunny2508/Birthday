@@ -772,6 +772,19 @@ video {
   background-color: rgb(14 165 233 / var(--tw-bg-opacity));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#\] {
+  background-color: #;
+}
+
+.bg-\[\#F29E4C\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 158 76 / var(--tw-bg-opacity));
+}
+
 .p-3 {
   padding: 0.75rem;
 }
@@ -786,6 +799,10 @@ video {
 
 .font-serif {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.font-\[\] {
+  font-family: ;
 }
 
 .text-2xl {
@@ -803,6 +820,27 @@ video {
   line-height: 1.5rem;
 }
 
+.text-\[0\.25rem\] {
+  font-size: 0.25rem;
+}
+
+.text-\[0\.5rem\] {
+  font-size: 0.5rem;
+}
+
+.text-\[0\.8rem\] {
+  font-size: 0.8rem;
+}
+
+.text-\[0\.6rem\] {
+  font-size: 0.6rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -811,9 +849,46 @@ video {
   font-weight: 600;
 }
 
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[0\.2\] {
+  color: 0.2;
+}
+
+.text-\[0\.\] {
+  color: 0.;
+}
+
+.text-\[0\.5\] {
+  color: 0.5;
+}
+
+.text-\[0\.25\] {
+  color: 0.25;
+}
+
+.text-blue-100 {
+  --tw-text-opacity: 1;
+  color: rgb(219 234 254 / var(--tw-text-opacity));
 }
 
 .shadow-\[30px_40px_40px_rgba\(0\2c 0\2c 0\2c 0\.5\)\] {
@@ -840,6 +915,29 @@ video {
   background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 
+.active\:bg-\[\]:active {
+  background-color: ;
+}
+
+.active\:bg-\[\#\]:active {
+  background-color: #;
+}
+
+.active\:bg-\[\#F29E4C\]:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 158 76 / var(--tw-bg-opacity));
+}
+
+.active\:bg-red-100:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
+}
+
+.active\:bg-red-500:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
 @media (min-width: 768px) {
   .md\:mb-\[5px\] {
     margin-bottom: 5px;
@@ -855,6 +953,14 @@ video {
 
   .md\:mt-\[5px\] {
     margin-top: 5px;
+  }
+
+  .md\:mt-\[\] {
+    margin-top: ;
+  }
+
+  .md\:mt-\[2vh\] {
+    margin-top: 2vh;
   }
 
   .md\:flex {
@@ -905,5 +1011,13 @@ video {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-\[0\.8rem\] {
+    font-size: 0.8rem;
+  }
+
+  .md\:text-\[1rem\] {
+    font-size: 1rem;
   }
 }
